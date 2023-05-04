@@ -1,7 +1,7 @@
 // const path = require('path');
 // const { readFile, writeFile } = require('fs').promises;
 
-const db = require('../db/connection.js');
+const { db } = require('../db/connection.js');
 const Pokemon = require('./model.js');
 
 async function main() {
